@@ -50,11 +50,11 @@
                 <form action="/login-in" method="post">
                     <h2>LOGIN</h2>
                     <div class="input-container">
-                        <label for="email">Email: </label>
-                        <input type="text" name="email" id="email" placeholder="email">
+                        <label for="email">Email </label>
+                        <input type="text" name="email" id="email">
 
-                        <label for="password">Password: </label>
-                        <input type="password" name="password" id="password" placeholder="password">
+                        <label for="password">Password </label>
+                        <input type="password" name="password" id="password">
                     </div>
 
                     <!-- <div class="error">
@@ -66,8 +66,13 @@
                         {% endif %}
                         {% endwith %}
                     </div> -->
-                    <input type="submit" value="login-in" class="submit-btn">
+                    <input type="submit" value="LOGIN" class="submit-btn">
                 </form>
+                <div class="bottom-text">
+                    <input type="checkbox" name="remember" id="remember" checked="checked">Remember Me
+                    <a href="#">Forgot Password</a>
+                </div>
+                <a href="#">Not a Member? Sign Up</a>
             </div>
     </div>
 </body>
